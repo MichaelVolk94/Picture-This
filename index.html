@@ -16,7 +16,12 @@
       <section>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img srcset="images/museum-960.jpg 960w, images/museum-720 720w, images/museum-480.jpg 480w" 
+    <img srcset="images/museum-480.jpg 480w, 
+    images/museum-720 720w, 
+    images/museum-960.jpg 960w" 
+    sizes="(max-width: 480px) 480px,
+    (max-width: 720px) 720px,
+    (max-width: 960px) 960px"
     alt="placeholder"
     src="images/museum.jpg">
   </section>
